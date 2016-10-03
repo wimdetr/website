@@ -1,0 +1,48 @@
+body{
+    background-color: #666666;
+}
+
+a,a:visited {
+    text-decoration: none;
+    color: #999967;
+}
+a:hover{
+    color: black;
+}
+
+
+#contentWrapper{
+    position: relative;
+    background-color: #CCCCCC;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 100%;
+    min-height: 600px;
+}
+
+#navBar{
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+#innerContentWrapper{
+    padding-top: 5px;
+    align-content: center;
+    width: 93%;
+    margin: 0 auto;
+}
+.avatar{
+    margin-top: 10px;
+    margin-right: 10px;
+    width:180px;
+    height:180px;
+    float: left;
+    border: 1px solid;
+}
+#snippet{
+    font-family: Verdana;
+}
